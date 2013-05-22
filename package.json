@@ -1,6 +1,6 @@
 {
   "name": "sentiment-multitool",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "cli to scan piped text streams or start a web service for sentimint analysis. uses 'sentiment' by diy",
   "main": "server.js",
   "scripts": {

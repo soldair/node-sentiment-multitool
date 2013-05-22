@@ -15,7 +15,7 @@ module.exports = function(dict){
         data = Buffer.concat(data).toString()
 
       } else {
-
+        data = '';
         var parsed = url.parse(req.url,true);
         if(parsed.query && parsed.query.text) {
           //
