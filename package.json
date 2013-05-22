@@ -6,7 +6,7 @@
   "main": "server.js",
   "scripts": {
     "test": "tap test/*",
-    "start": "node server.js",
+    "start": "node bin/sentiment.js --port 0"
   },
   "bin": {
     "sentiment": "./bin/sentiment.js"
