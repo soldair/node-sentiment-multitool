@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "sentimint-multitool",
   "version": "0.0.0",
   "description": "cli to scan piped text streams or start a web service for sentimint analysis. uses 'sentiment' by diy",
@@ -11,7 +10,10 @@
   "bin": {
     "sentiment": "./bin/sentiment.js"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/soldair/node-sentiment-multitool.git"
+  },
   "keywords": [
     "sentimint",
     "ratings",
