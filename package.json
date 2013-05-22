@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "sentimint-multitool",
+  "version": "0.0.0",
+  "description": "cli to scan piped text streams or start a web service for sentimint analysis. uses 'sentiment' by diy",
+  "main": "server.js",
+  "scripts": {
+    "test": "tap test/*",
+    "start": "node server.js",
+  },
+  "bin": {
+    "sentiment": "./bin/sentiment.js"
+  },
+  "repository": "",
+  "keywords": [
+    "sentimint",
+    "ratings",
+    "text",
+    "analysis"
+  ],
+  "author": "Ryan Day",
+  "license": "MIT",
+  "dependencies": {
+    "sentiment": "~0.2.0",
+    "line-stream": "0.0.2",
+    "optimist": "~0.5.0"
+  },
+  "devDependencies": {
+    "tap": "~0.4.3"
+  }
+}
